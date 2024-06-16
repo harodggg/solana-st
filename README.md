@@ -60,7 +60,10 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 
 1. base on vdf
 2. 并不是确定性时间协议，而是确定时间发生顺序的协议
-3. 
+3. 上一次输出，作为下一次输入，不断的在单核内一直执行
+4. 如果想要破坏，就必须要从头开始生成hash
+5. 计算机的生成hash的速度是有限
+6. 如果重新生成hash 就错过了slot时间导致交易无效
 
 ## 11. CPI (cross-program-interface)
 1. 4个深度( A调用B-> C -> D)
@@ -104,6 +107,13 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 ## othre restore resources
 1. https://solana-asset-recovery.vercel.app/account
 
+
+## solana devent/testnet faucet
+1. https://faucet.solana.com/
+2. https://solfaucet.com/
+3. https://dev-faucet.solanahub.app/
+4. https://faucet.quicknode.com/solana/devnet
+5. https://stardust-solana-faucet.vercel.app/
 
 
 
