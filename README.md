@@ -104,7 +104,7 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 4. 必须创造一系列POH刻度
 5. 每一个区块的诞生必须要符合POH 在规定的slot内
 
-## othre restore resources
+## other restore resources
 1. https://solana-asset-recovery.vercel.app/account
 
 
@@ -114,6 +114,10 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 3. https://dev-faucet.solanahub.app/
 4. https://faucet.quicknode.com/solana/devnet
 5. https://stardust-solana-faucet.vercel.app/
+
+## solana rpc
+1. https://api.devnet.solana.com
+2. https://api.testnet.solana.com
 
 
 
