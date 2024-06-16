@@ -45,3 +45,16 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 
 ## 9. 一些最初期的尝试，包含错误
 ![Alt text](image-3.png)
+
+## 10. POH
+
+## 11. CPI (cross-program-interface)
+
+## 12. bytesTobase58
+[keypair](bytesTobase58.py)
+
+## 13. createmanyaccount
+[create_wallet](create_wallet.py)
+
+
+
