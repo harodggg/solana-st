@@ -12,6 +12,9 @@ cargo add solana-program
 ![Alt text](image.png)
 
 ## 3. solana account info 
-
 ![Alt text](image-1.png)
 
+## 4. program account and data account 
+![Alt text](image-2.png)
+
+## 5. 
