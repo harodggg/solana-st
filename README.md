@@ -19,3 +19,26 @@ cargo add solana-program
 
 ## 5. delete a data account program
 [delete-account program](delete-account)
+
+## 6. Serialization scheme
+1. packet
+2. bincode
+3. borsh
+
+## 7. BPF--Berbeley-packet-filter
+BPF 一种虚拟字节码，需要运行在虚拟机上
+rust 编译BPF字节码
+```bash
+cargo build-bpf
+```
+
+solana 部署BPF字节码
+```bash
+ solana program deploy ./hello_world/target/deploy/hello_world.so 
+```
+solana 关闭程序账户
+```bash
+solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warning
+```
+
+## 8. PDA
