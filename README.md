@@ -25,7 +25,7 @@ cargo add solana-program
 2. bincode
 3. borsh
 
-## 7. BPF--Berbeley-packet-filter
+## 7. BPF--Berbeley-Packet-Filter
 BPF 一种虚拟字节码，需要运行在虚拟机上
 rust 编译BPF字节码
 ```bash
@@ -41,4 +41,7 @@ solana 关闭程序账户
 solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warning
 ```
 
-## 8. PDA
+## 8. PDA--(program-dervie-account)
+
+## 9. 一些最初期的尝试，包含错误
+![Alt text](image-3.png)
