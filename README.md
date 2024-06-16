@@ -18,4 +18,4 @@ cargo add solana-program
 ![Alt text](image-2.png)
 
 ## 5. delete a data account program
-[delete-account program]("delete-account")
+[delete-account program]("/delete-account")
