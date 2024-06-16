@@ -56,5 +56,20 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 ## 13. createmanyaccount
 [create_wallet](create_wallet.py)
 
+## 14. rent
+1. There is a rent fee to create a new account
+2. If the sol address balance meets the rent fee for 2 years, it will be free
+3. The rent fee is charged at the end of the epoch, which takes about 2 days per epoch. Or when this address initiates a transaction on the chain.
+4. If the sol is insufficient to pay the rent fee, the account will be deleted.
+5. data > 0, each byte will be charged a rent fee, which is about 10M for ordinary accounts and about 10K for program accounts.
+
+## 15. account with seed
+
+## 16. nonce account
+
+## 17. stake account
+
+
+
 
 
