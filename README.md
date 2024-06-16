@@ -55,7 +55,12 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 ## 9. 一些最初期的尝试，包含错误
 ![Alt text](image-3.png)
 
-## 10. POH
+## 10. POH--(proof-of-history)
+![Alt text](image-9.png)
+
+1. base on vdf
+2. 并不是确定性时间协议，而是确定时间发生顺序的协议
+3. 
 
 ## 11. CPI (cross-program-interface)
 1. 4个深度( A调用B-> C -> D)
@@ -84,6 +89,22 @@ solana program close DsF7XpSZZv4hqcFqHpVowf6UPPkdjvDmhdFtDzifE9qp --bypass-warni
 
 ## 17. stake account
 1. 委托
+
+## 18. tower BFT
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+![bft](https://assets-global.website-files.com/641ba798c17bb180d832b666/65a9aa2b9d3d3a0b3ccf7bc9_tNaLa5UPrg-gtH7Tn9O1gtLnR_hQMh75sTWLeaMOHezvdCSerpc4LcggL4btBTOh4_oh1VIZfVCd1QgGLlHIJnHXPVAnij0TGQej7m0Oexk0LpLrL-PfWhe2mZ_iMVgYvzsoIarhZcngMFkKTChtAPY.jpeg)
+
+1. leader 选取一个epoch(2天到3天)
+2. leader 选取是根据投票权重随机选取的
+3. leader 在出块的时候，会同时分配4个slot,每一个slot的时间是400ms, 4个1.6s
+4. 必须创造一系列POH刻度
+5. 每一个区块的诞生必须要符合POH 在规定的slot内
+
+## othre restore resources
+1. https://solana-asset-recovery.vercel.app/account
+
+
 
 
 
